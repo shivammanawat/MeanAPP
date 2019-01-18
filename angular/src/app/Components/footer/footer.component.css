@@ -1,0 +1,173 @@
+html,body{
+    height:100%;
+    width:100%;
+    font-family: 'Poppins', sans-serif;
+    color:#222;
+  }
+  
+  .btn
+  {
+  width: 100px;
+  }
+  
+  
+  .padding{
+    padding-bottom:2rem;
+  }
+  
+  
+  
+  #b{
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
+  
+  @keyframes slidein {
+    from {
+      margin-left: -6%;
+      color:white;
+  
+    }
+    to {
+      margin-left: 8%;
+     
+      color:black;
+    }
+  }
+  
+  
+  .zoom {
+      transition: transform .2s; /* Animation */
+     
+      
+  }
+  
+  .zoom:hover {
+      transform: scale(1.1); 
+          
+  }
+  .zoomin {
+   animation:big 50s;
+  }
+  
+  @keyframes big {
+  0% { transform:scale(0.50) }
+  100% { transform:scale(0.75) }
+  
+  }
+  
+  
+  @keyframes rotater {
+  0% { transform:rotate(0) scale(0.70) }
+  55% { transform:rotate(-90deg) scale(0.40) }
+  100% { transform:rotate(0deg) scale(1) }
+  }
+  
+  #my
+  {
+  
+  animation:rotater 20s infinite;
+  }
+  
+  
+      @keyframes myani {
+      0%   {background-color:red;  top:0px;}
+      25%  {background-color:lightblue; }
+      50%  {background-color:lightgreen;}
+      75%  {background-color:lightpink}
+      100% {background-color:lightyellow; }
+  }
+  #myan {
+      width: auto;
+      height: 5px;
+      background: black;
+      transition: width 0.91s;
+      background-color: green;
+       animation: myani 5s infinite;
+      animation-duration: 4s;
+    
+  }
+  #id1{
+    animation-duration: 25s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  
+  
+  @keyframes slide {
+    from {
+      margin-left:-10%;
+      color:black;
+    }
+    to {
+      margin-left: 2%;
+     
+      color:black;
+    }
+  }
+  
+  #id2{
+    animation-duration: 254s;
+    animation-name: slide1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  .bot{
+    margin-bottom: 0px;
+  }
+  
+  @keyframes slide1 {
+    from {
+      margin-left:2%;
+      color:black;
+  
+    }
+    to {
+      margin-left: -8%;
+      color:black;
+    }
+  }
+  
+  footer
+  {
+  
+    background-color:#3f3f3f;
+    color:white;
+    padding-top:2rem;
+  }
+  .light{
+  border-top: 1px solid #d5d5d5;
+  width:75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+  }
+  
+  .colormylink{
+  color:white;
+  }
+  
+  #colormy{
+    color:red;
+  }
+  
+    .parallax { 
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1489257900339-13e688fb85fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  
+    /* Set a specific height */
+    height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+   

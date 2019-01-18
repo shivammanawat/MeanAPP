@@ -1,0 +1,23 @@
+
+ 
+  
+  .mypad
+  {
+    padding-top:-1px;
+  }
+  .navbar
+  {
+    padding: .5rem;
+  }
+  .navbar-nav li
+  {
+    padding-right:10px;
+  }
+  .nav-link
+  {
+    font-size:0.7em !important;
+  }
+  .navbar-nav li a
+  {
+    color:white; 
+  }

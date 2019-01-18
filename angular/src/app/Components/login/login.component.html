@@ -1,0 +1,59 @@
+
+
+<div class="container padding" align="center" >
+  <div class="col-6 col-offset-3" >
+   
+    <h2 class="page-header">Login</h2>
+      <form (submit)="onLoginSubmit()">
+        <div class="form-group">
+            <br><br>
+            <div class="col-6 col-offset-3" >
+              <label>Username</label>
+              <input type="text" class="form-control" [(ngModel)]="username" name="username">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-6 col-offset-3" >
+              <label>Password</label>
+              <input type="password" class="form-control" [(ngModel)]="password" name="password">
+          </div>
+        </div>
+        <a  [routerLink]="['/forgotpassword']">Forgot Password?</a>  <br><br>
+        <a  [routerLink]="['/register']">Register Here</a><br><br>
+        <input type="submit" class="btn btn-primary" value="Login">
+      </form>
+      
+  </div>
+</div>
+
+<!-- 
+
+
+<div class="container padding" align="center" >
+    //<div class="container1 padding">
+      <div class="col-6 col-offset-3" >
+      <h2 class="page-header">Login</h2>
+        <form (submit)="onLoginSubmit()">
+          <div class="form-group">
+              <div class="col-6 col-offset-3" >
+                <label>Username</label>
+                <input type="text" class="form-control" [(ngModel)]="username" name="username">
+              </div>
+          </div>
+          <div class="form-group">
+              <div class="col-6 col-offset-3" >
+                <label>Password</label>
+                <input type="password" class="form-control" [(ngModel)]="password" name="password">
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary" value="Login"><br>
+          <a  [routerLink]="['/forgotpassword']">Forgot Password?</a>  <br>
+          <a  [routerLink]="['/register']">Register Here</a>
+         
+        </form>
+    //  </div>
+    </div>
+  </div>
+  
+ 
+   -->

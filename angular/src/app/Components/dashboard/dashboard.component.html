@@ -1,0 +1,10 @@
+<div class="container" align="center">
+<h2 class="page-header display-2 ">Dashboard</h2>
+
+<p class="lead">Welcome you to dashboard, you are logged in succesfully now route to profile page from here <br> <br>
+    <a  [routerLink]="['/profile']"><h4 class="display-4">User Profile</h4></a> </p>
+<br>
+
+<p *ngIf="authService.loggedIn()"><a class="btn btn-danger" (click)="onLogoutClick()" href="#">Logout</a></p>
+
+</div>

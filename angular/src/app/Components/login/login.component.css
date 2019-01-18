@@ -1,0 +1,12 @@
+.btn
+{
+width: 100px;
+}
+.padding{
+    padding-bottom:2rem;
+    padding-top:2rem;
+  }
+  .col-6
+  {
+    background-color:lightgrey;
+  }
