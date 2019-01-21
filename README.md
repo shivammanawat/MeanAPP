@@ -12,6 +12,6 @@ Installation
 
 Install the dependencies
 
-$ npm install Run app
+$ npm install 
 
-$ npm start
+$ npm run start
